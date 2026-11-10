@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-1: #ffe9f0;
+  --bg-2: #e6f0ff;
+  --ink: #3b2f45;
+  --accent: #ff7aa2;
+  --accent-dark: #e05583;
+  --card: rgba(255, 255, 255, 0.75);
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans KR', sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+  overflow-x: hidden;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent-dark);
+  outline-offset: 3px;
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-label="주황색 고양이">
+  <!-- tail -->
+  <path d="M150 170 C190 160 195 110 170 95" fill="none" stroke="#f29a4a" stroke-width="14" stroke-linecap="round"/>
+  <!-- body -->
+  <ellipse cx="100" cy="165" rx="55" ry="45" fill="#f6a85a"/>
+  <ellipse cx="100" cy="175" rx="32" ry="28" fill="#fde3c4"/>
+  <!-- feet -->
+  <ellipse cx="72" cy="205" rx="16" ry="10" fill="#f6a85a"/>
+  <ellipse cx="128" cy="205" rx="16" ry="10" fill="#f6a85a"/>
+  <!-- ears -->
+  <path d="M45 70 L52 15 L90 50 Z" fill="#f6a85a"/>
+  <path d="M155 70 L148 15 L110 50 Z" fill="#f6a85a"/>
+  <path d="M55 58 L58 30 L78 48 Z" fill="#ffb3c7"/>
+  <path d="M145 58 L142 30 L122 48 Z" fill="#ffb3c7"/>
+  <!-- head -->
+  <ellipse cx="100" cy="80" rx="60" ry="50" fill="#f6a85a"/>
+  <!-- stripes -->
+  <path d="M90 33 Q100 45 110 33" fill="none" stroke="#d9772e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M85 42 Q100 55 115 42" fill="none" stroke="#d9772e" stroke-width="5" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="78" cy="78" rx="9" ry="12" fill="#3b2f45"/>
+  <ellipse cx="122" cy="78" rx="9" ry="12" fill="#3b2f45"/>
+  <circle cx="81" cy="73" r="3.5" fill="#fff"/>
+  <circle cx="125" cy="73" r="3.5" fill="#fff"/>
+  <!-- cheeks -->
+  <ellipse cx="62" cy="98" rx="9" ry="5" fill="#ff8fab" opacity="0.6"/>
+  <ellipse cx="138" cy="98" rx="9" ry="5" fill="#ff8fab" opacity="0.6"/>
+  <!-- nose & mouth -->
+  <path d="M94 92 L106 92 L100 99 Z" fill="#ff7aa2"/>
+  <path d="M100 99 Q100 107 91 107 M100 99 Q100 107 109 107" fill="none" stroke="#3b2f45" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <g stroke="#3b2f45" stroke-width="2" stroke-linecap="round">
+    <line x1="40" y1="88" x2="68" y2="94"/>
+    <line x1="38" y1="100" x2="68" y2="100"/>
+    <line x1="160" y1="88" x2="132" y2="94"/>
+    <line x1="162" y1="100" x2="132" y2="100"/>
+  </g>
+</svg>
